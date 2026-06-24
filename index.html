@@ -1,7 +1,55 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <title>Aneswar Boro Portfolio</title>
+<title>Aneswar Boro Portfolio</title>
+
+<style>
+body{
+background:#0b1220;
+color:white;
+font-family:Arial,sans-serif;
+max-width:1200px;
+margin:auto;
+padding:30px;
+}
+
+h1{
+font-size:60px;
+}
+
+h2{
+color:#00d4aa;
+margin-top:40px;
+}
+
+h3{
+color:white;
+}
+
+a{
+color:#00d4aa;
+text-decoration:none;
+}
+
+.card{
+background:#111827;
+padding:20px;
+border-radius:15px;
+margin-top:20px;
+border:1px solid #1f2937;
+}
+
+.button{
+display:inline-block;
+padding:12px 20px;
+background:#00d4aa;
+color:black;
+border-radius:10px;
+margin-right:10px;
+font-weight:bold;
+}
+</style>
+
 </head>
 
 <body>
@@ -14,17 +62,17 @@
 
 <h2>Quick Links</h2>
 
-<p>
-<a href="https://aneswar-portfolio-live.vercel.app" target="_blank">
+<a class="button"
+href="https://aneswar-portfolio-live.vercel.app"
+target="_blank">
 🌐 Live Portfolio
 </a>
-</p>
 
-<p>
-<a href="https://www.linkedin.com/in/aneswar-boro-150672170" target="_blank">
-💼 LinkedIn Profile
+<a class="button"
+href="https://www.linkedin.com/in/aneswar-boro-150672170"
+target="_blank">
+💼 LinkedIn
 </a>
-</p>
 
 <h3>Job Simulations</h3>
 
@@ -70,14 +118,18 @@
 <hr>
 
 
-    <h2>About Me</h2>
+<div class="card">
+<h2>About Me</h2>
 
     <p>
     2+ years of experience in Fraud Prevention, Trust & Safety,
     Chargeback Investigation and Risk Operations.
     </p>
 
-    <h2>Projects</h2>
+    </div>
+
+<div class="card">
+<h2>Projects</h2>
 
     <h3>Retail Sales & Revenue Analytics Dashboard</h3>
 
@@ -110,6 +162,8 @@ country-wise sales performance.
 </ul>
 
 <p><b>Status:</b> In Progress</p>
-
+    
+</div>
+    
 </body>
 </html>
